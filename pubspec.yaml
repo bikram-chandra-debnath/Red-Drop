@@ -1,0 +1,83 @@
+name: red_drop_2
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+
+# ---------[Dependencies]---------
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_native_splash: ^2.4.6
+  lottie:
+  smooth_page_indicator: ^1.2.1
+  iconsax:
+
+
+# ------[State Management]-------
+
+  get: ^4.7.2
+  rename_app: ^1.6.3
+  icons_launcher: ^3.0.1
+  carousel_slider: ^5.1.1
+
+
+
+#---------[Dev Dependencies]-------
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^5.0.0
+
+flutter:
+
+
+  uses-material-design: true
+
+
+
+
+  # ----------[Assets]-----------
+  assets:
+    - assets/images/
+    - assets/animations/
+    - assets/banner/
+    - assets/logo/
+    - assets/icons/
+
+  
+
+# -------------[Font Family]--------
+
+  fonts:
+    - family: "Nunito"
+      fonts:
+        - asset: assets/fonts/Nunito-Bold.ttf
+          weight: 300
+        - asset: assets/fonts/Nunito-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Nunito-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Nunito-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Nunito-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Nunito-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Nunito-Bold.ttf
+          weight: 800
+
+  

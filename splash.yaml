@@ -1,0 +1,15 @@
+flutter_native_splash:
+  color: "#ffffff" #white
+  color_dark: "#000000" #black
+  image: assets/logo/red_drop.png
+  image_dark: assets/logo/red_drop.png
+
+  android_12:
+    color: "#ffffff" #white
+    color_dark: "#000000" #black
+    image: assets/logo/red_drop.png
+    image_dark: assets/logo/red_drop.png
+
+    web: false
+
+
